@@ -2,3 +2,5 @@
  Dynamic internationalization / localization of a vector tile basemap
 
 ### Try it live [here](https://tfauvell.github.io/i18n_vt_basemap/)
+
+# Source data: [GADM.org](https://gadm.org/data.html)
