@@ -1,0 +1,61 @@
+body {
+	font-family: Arial;
+}
+
+.languageSelector {
+	position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 140px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+	border-style: solid;
+}
+
+.mobile .languageSelector {
+	top: auto;
+	right: auto;
+	width: 100%;
+	border-radius: 0;
+	border-width: 0;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	bottom: 17px;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+.countrySelector {
+	position: absolute;
+    top: 20px;
+    right: 200px;
+    width: 140px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+	border-style: solid;
+}
+
+.mobile .countrySelector {
+	top: auto;
+	right: auto;
+	width: 100%;
+	border-radius: 0;
+	border-width: 0;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	bottom: 17px;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+.flat .dijitComboBoxMenu {
+	height: 5px;
+}

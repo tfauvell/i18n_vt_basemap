@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>I18N Basemap</title>
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css" />
+    <link rel="stylesheet" href="css/flat/flat.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://js.arcgis.com/4.18/"></script>
+    <script src ="js/i18n.js"></script>
+
+  </head>
+
+  <body class="flat">
+    <div id="viewDiv">
+      <div class="languageSelector">
+        <div class="languageSelectorText">
+        Select Language: <br/><div id="languageSelector"></div>
+        </div>
+      </div>
+      <div class="countrySelector">
+        <div class="countrySelectorText">
+        Highlight Country: <br/><div id="countrySelector"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
