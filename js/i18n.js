@@ -68,7 +68,7 @@ require([
 
     // County Boundaries
     const layer = new VectorTileLayer({
-      url: "https://tiles.arcgis.com/tiles/HDgMIJDCbHtnomY9/arcgis/rest/services/i18n_basemap/VectorTileServer/resources/styles/root.json"
+      url: "https://www.arcgis.com/sharing/rest/content/items/24cb345c4ccc4dbf8c84f9db3e520b37/resources/styles/root.json"
     });
     map.add(layer);
     // view.ui.add("topbar", "top-left");
